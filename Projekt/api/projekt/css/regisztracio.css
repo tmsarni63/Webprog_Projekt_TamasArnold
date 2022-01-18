@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+      
+    font-size: 120%;
+    
+  }
+  .fejlec{
+   
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+  }
+  .container{
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+  }
+  .logo{
+      margin-top:20px;
+      width:20%;
+  }
+
+  .br{
+      margin-top:20px;
+      width:267px;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      
+      
+  }
+  .log{
+          font-family:'Nerko One', cursive;
+          float:right;
+          text-decoration:none;
+  }
+  .reg{
+          font-family:'Nerko One', cursive;
+          text-decoration:none;
+          
+  }
+  .vonal{
+          font-family:'Nerko One', cursive;
+          color:white;
+          margin-left:10px;
+          margin-right:10px;
+          
+  }
+  .menu{
+      width:50%;
+      padding:0 0 0 1%;
+  }
+  .menu ul{
+      
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  
+  }
+  .menu li{
+      
+      display: inline;
+      margin-right: 8%;
+  
+  }
+  .menu li a{
+      color:white;
+      font-family:'Nerko One',cursive;
+      text-decoration:none;
+  }
+  
+  
+  .header {
+    width: 30%;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-mezo {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-mezo label {
+    display: block;
+    margin: 3px;
+  }
+  .input-mezo input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .input-mezo select{
+      height: 45px;
+    width: 99%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
